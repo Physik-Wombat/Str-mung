@@ -29,7 +29,7 @@ ui <-
             "",
             sliderInput(
               inputId = "slider",
-              label = "Verschiedene Höhen wählen:",
+              label = "Wählen Sie 5 dieser 10 Höhen:",
               min = 1,
               max = 10,
               value = 1,
