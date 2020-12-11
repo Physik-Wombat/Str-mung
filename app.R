@@ -254,7 +254,7 @@ ui <-
                                          height = 674,
                                          width = 1013
                                        )
-                                     ))))
+                                     )))),
            mainPanel(conditionalPanel("input.type=='Höhe 3'",
                                      
                                      ((
