@@ -180,7 +180,7 @@ ui <-
                                      
                                      ((
                                        img(
-                                         src = "GroßesRohr2.png",
+                                         src = "GrossesRohr2.png",
                                          height = 674,
                                          width = 1013
                                        )
