@@ -1,13 +1,13 @@
 library(shiny)
 ui <-
   navbarPage(
-    strong("StrÃ¶mung durch GefÃ¤Ãe (Hagen â Poiseuillesches Gesetz)"),
+    strong("Strömung durch Gefäße (Hagen-Poiseuillesches Gesetz)"),
     
     tabPanel(
       strong("Versuch 1"),
       titlePanel(
         h4(
-          "Fluss in AbhÃ¤ngigkeit von der Druckdifferenz und Widerstandsberechnung"
+          "Fluss in Abhängigkeit von der Druckdifferenz und Widerstandsberechnung"
         )
       ),
       
@@ -29,7 +29,7 @@ ui <-
             "",
             sliderInput(
               inputId = "slider",
-              label = "Verschiedene HÃ¶hen wÃ¤hlen:",
+              label = "Verschiedene Höhen wählen:",
               min = 1,
               max = 10,
               value = 1,
@@ -148,7 +148,7 @@ ui <-
     
     tabPanel(
       strong("Versuch 2"),
-      titlePanel(h4("Fluss in AbhÃ¤ngigkeit vom Rohrradius ")),
+      titlePanel(h4("Fluss in Abhängigkeit vom Rohrradius ")),
       
       tabsetPanel(
         tabPanel("Rohrdurchmesser",
@@ -169,8 +169,8 @@ ui <-
             "",
             radioButtons(
               "typeInput",
-              "Verschiedene HÃ¶hen wÃ¤hlen:",
-              choices = c("Dickes Rohr", "DÃ¼nnes Rohr"),
+              "Verschiedene Höhen wählen:",
+              choices = c("Dickes Rohr", "Dünnes Rohr"),
               selected = "Dickes Rohr"
             )
           ),
@@ -180,13 +180,13 @@ ui <-
                                      
                                      ((
                                        img(
-                                         src = "GroÃesRohr2.png",
+                                         src = "GroßesRohr2.png",
                                          height = 674,
                                          width = 1013
                                        )
                                      )))),
           
-          mainPanel(conditionalPanel("input.typeInput=='DÃ¼nnes Rohr'",
+          mainPanel(conditionalPanel("input.typeInput=='Dünnes Rohr'",
                                      
                                      ((
                                        img(
@@ -229,14 +229,14 @@ ui <-
             "",
             radioButtons(
               "type",
-              "Verschiedene HÃ¶hen wÃ¤hlen:",
-              choices = c("HÃ¶hen 1", "HÃ¶hen 2"),
-              selected = "HÃ¶hen 1"
+              "Verschiedene Höhen wählen:",
+              choices = c("Höhe 1", "Höhe 2", "Höhe 3"),
+              selected = "Höhe 1"
             )
           ),
           
           
-          mainPanel(conditionalPanel("input.type=='HÃ¶hen 1'",
+          mainPanel(conditionalPanel("input.type=='Höhe 1'",
                                      
                                      ((
                                        img(
@@ -246,11 +246,20 @@ ui <-
                                        )
                                      )))),
           
-          mainPanel(conditionalPanel("input.type=='HÃ¶hen 2'",
+          mainPanel(conditionalPanel("input.type=='Höhe 2'",
                                      
                                      ((
                                        img(
                                          src = "V3H2.png",
+                                         height = 674,
+                                         width = 1013
+                                       )
+                                     ))))
+           mainPanel(conditionalPanel("input.type=='Höhe 3'",
+                                     
+                                     ((
+                                       img(
+                                         src = "V3H3.png",
                                          height = 674,
                                          width = 1013
                                        )
@@ -288,14 +297,14 @@ ui <-
             "",
             radioButtons(
               "radio",
-              "Verschiedene HÃ¶hen wÃ¤hlen:",
-              choices = c("HÃ¶hen 1", "HÃ¶hen 2", "HÃ¶hen 3"),
-              selected = "HÃ¶hen 1"
+              "Verschiedene Höhen wählen:",
+              choices = c("Höhe 1", "Höhe 2", "Höhe 3"),
+              selected = "Höhe 1"
             )
           ),
           
           
-          mainPanel(conditionalPanel("input.radio=='HÃ¶hen 1'",
+          mainPanel(conditionalPanel("input.radio=='Höhe 1'",
                                      
                                      ((
                                        img(
@@ -305,7 +314,7 @@ ui <-
                                        )
                                      )))),
           
-          mainPanel(conditionalPanel("input.radio=='HÃ¶hen 2'",
+          mainPanel(conditionalPanel("input.radio=='Höhe 2'",
                                      
                                      ((
                                        img(
@@ -315,7 +324,7 @@ ui <-
                                        )
                                      )))),
           
-          mainPanel(conditionalPanel("input.radio=='HÃ¶hen 3'",
+          mainPanel(conditionalPanel("input.radio=='Höhe 3'",
                                      
                                      ((
                                        img(
