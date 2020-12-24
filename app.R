@@ -171,7 +171,8 @@ ui <-
               "typeInput",
               "Verschiedene Höhen wählen:",
               choices = c("Dickes Rohr", "Dünnes Rohr"),
-              selected = "Dickes Rohr"
+              selected = "Dickes Rohr",
+              "Wiederholungsmessungen sind hier nicht nötig!"
             )
           ),
           
