@@ -169,10 +169,10 @@ ui <-
             "",
             radioButtons(
               "typeInput",
-              "Verschiedene Höhen wählen:",
+              "Verschiedene Rohrdurchmesser wählen: (Wiederholungsmessungen sind hier nicht nötig!)",
               choices = c("Dickes Rohr", "Dünnes Rohr"),
-              selected = "Dickes Rohr",
-              "Wiederholungsmessungen sind hier nicht nötig!"
+              selected = "Dickes Rohr"
+              
             )
           ),
           
