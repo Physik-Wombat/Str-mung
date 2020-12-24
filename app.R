@@ -219,7 +219,7 @@ ui <-
                      src = "VersuchAufbau3.jpg",
                      height = 300,
                      width = 500
-                   ),
+                   )
                    
                  ))),
         
