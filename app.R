@@ -217,18 +217,18 @@ ui <-
                  mainPanel((
                    img(
                      src = "VersuchAufbau3.jpg",
-                     height = 300,
-                     width = 500
+                     height = 600,
+                     width = 1000
                    )
                    
                  ))),
-        tabPanel("Versuchsaufbau",
+        tabPanel("Maße der Rohre",
                  br(),
                  mainPanel((
                    img(
                      src = "Länge zum Ausfluss Versuch 3 und 4.png",
-                     height = 300,
-                     width = 500
+                     height = 600,
+                     width = 1000
                    )
                    
                  ))),
