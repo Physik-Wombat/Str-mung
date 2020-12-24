@@ -217,13 +217,13 @@ ui <-
                  mainPanel((
                    img(
                      src = "VersuchAufbau3.jpg",
-                     height = 674,
-                     width = 1013
+                     height = 300,
+                     width = 500
                    ),
                    img(
                      src = "Länge zum Ausfluss Versuch 3 und 4",
-                     height = 674,
-                     width = 1013
+                     height = 300,
+                     width = 500
                      )
                  ))),
         
