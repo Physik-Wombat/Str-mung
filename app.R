@@ -226,7 +226,7 @@ ui <-
                  br(),
                  mainPanel((
                    img(
-                     src = "Länge zum Ausfluss Versuch 3 und 4.png",
+                     src = "LängezumAusflussVersuch3und4.png",
                      height = 600,
                      width = 1000
                    )
