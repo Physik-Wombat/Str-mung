@@ -220,11 +220,7 @@ ui <-
                      height = 300,
                      width = 500
                    ),
-                   img(
-                     src = "Länge zum Ausfluss Versuch 3 und 4.png",
-                     height = 300,
-                     width = 500
-                     )
+                   
                  ))),
         
         
