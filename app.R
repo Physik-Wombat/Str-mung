@@ -240,7 +240,7 @@ ui <-
             "",
             radioButtons(
               "type",
-              "Verschiedene Höhen wählen:",
+              "Verschiedene Höhen wählen: Beachten Sie, dass die Durchflussrichtung von RECHTS nach LINKS ist!",
               choices = c("Höhe 1", "Höhe 2", "Höhe 3"),
               selected = "Höhe 1"
             )
@@ -299,7 +299,16 @@ ui <-
                      width = 1013
                    )
                  ))),
-        
+        tabPanel("Maße der Rohre",
+                 br(),
+                 mainPanel((
+                   img(
+                     src = "LangezumAusfluss.png",
+                     height = 600,
+                     width = 1000
+                   )
+                   
+                 ))),
         
         tabPanel(
           "Aufgabe",
@@ -308,7 +317,7 @@ ui <-
             "",
             radioButtons(
               "radio",
-              "Verschiedene Höhen wählen:",
+              "Verschiedene Höhen wählen: Beachten Sie, dass die Durchflussrichtung von RECHTS nach LINKS ist!",
               choices = c("Höhe 1", "Höhe 2", "Höhe 3"),
               selected = "Höhe 1"
             )
