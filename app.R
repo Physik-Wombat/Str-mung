@@ -240,7 +240,8 @@ ui <-
             "",
             radioButtons(
               "type",
-              "Verschiedene Höhen wählen:                      Beachten Sie, dass die Durchflussrichtung von RECHTS nach LINKS ist!",
+              "Beachten Sie, dass die Durchflussrichtung von RECHTS nach LINKS ist!
+              Verschiedene Höhen wählen:",
               choices = c("Höhe 1", "Höhe 2", "Höhe 3"),
               selected = "Höhe 1"
             )
@@ -317,7 +318,8 @@ ui <-
             "",
             radioButtons(
               "radio",
-              "Verschiedene Höhen wählen:",
+              "Beachten Sie, dass die Durchflussrichtung von RECHTS nach LINKS ist!
+              Verschiedene Höhen wählen:",
              
               choices = c("Höhe 1", "Höhe 2", "Höhe 3"),
               selected = "Höhe 1"
