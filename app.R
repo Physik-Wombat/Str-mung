@@ -26,7 +26,7 @@ ui <-
           "Aufgabe",
           br(),
           sidebarPanel(
-            "Die Länge zwischen Steigrohr und Ausfluss beträgt jeweils 46 cm",
+            "",
             sliderInput(
               inputId = "slider",
               label = "Wählen Sie 5 dieser 10 Höhen:",
@@ -36,7 +36,7 @@ ui <-
               step = 1
             )
           ),
-          
+          sidebarPanel("Die Länge zwischen Steigrohr und Ausfluss beträgt jeweils 46 cm"),
           mainPanel(conditionalPanel("input.slider=='1'",
                                      
                                      ((
