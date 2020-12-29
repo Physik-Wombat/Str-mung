@@ -45,7 +45,7 @@ ui <-
               min = 46,
               max = 46,
               value = 46,
-              step = 46
+              step = 1
             )
           ),
           mainPanel(conditionalPanel("input.slider=='1'",
