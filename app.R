@@ -29,7 +29,7 @@ ui <-
             "",
             sliderInput(
               inputId = "slider",
-              label = "Die Länge zwischen Steigrohr und Ausfluss beträgt 46 cm und der Rohrdurchmesser 4,5 cm. Wählen Sie 5 dieser 10 Höhen:",
+              label = "Die Länge zwischen Steigrohr und Ausfluss beträgt 46 cm und der Rohrdurchmesser 4,5 mm. Wählen Sie 5 dieser 10 Höhen:",
               min = 1,
               max = 10,
               value = 1,
