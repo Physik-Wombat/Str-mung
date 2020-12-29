@@ -36,7 +36,18 @@ ui <-
               step = 1
             )
           ),
-          sidebarPanel("Die Länge zwischen Steigrohr und Ausfluss beträgt jeweils 46 cm"),
+          
+          sidebarPanel(
+            "",
+            sliderInput(
+              inputId = "slider",
+              label = "Die Länge zwischen Steigrohr und Ausfluss beträgt jeweils 46 cm",
+              min = 46,
+              max = 46,
+              value = 46,
+              step = 46
+            )
+          ),
           mainPanel(conditionalPanel("input.slider=='1'",
                                      
                                      ((
