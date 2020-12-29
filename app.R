@@ -170,7 +170,7 @@ ui <-
             "",
             radioButtons(
               "typeInput",
-              "Verschiedene Rohrdurchmesser wählen: (Wiederholungsmessungen sind hier nicht nötig!)",
+              "Die Länge zwischen Steigrohr und Ausfluss beträgt jeweils 46 cm.(Wiederholungsmessungen sind hier nicht nötig!)",
               choices = c("Dickes Rohr", "Dünnes Rohr"),
               selected = "Dickes Rohr"
               
