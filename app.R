@@ -29,7 +29,7 @@ ui <-
             "",
             sliderInput(
               inputId = "slider",
-              label = "Wählen Sie 5 dieser 10 Höhen:",
+              label = "Die Länge zwischen Steigrohr und Ausfluss beträgt 46 cm und der Rohrdurchmesser 4,5 cm. Wählen Sie 5 dieser 10 Höhen:",
               min = 1,
               max = 10,
               value = 1,
@@ -37,17 +37,7 @@ ui <-
             )
           ),
           
-          sidebarPanel(
-            "",
-            sliderInput(
-              inputId = "slider",
-              label = "Die Länge zwischen Steigrohr und Ausfluss beträgt jeweils 46 cm",
-              min = 46,
-              max = 46,
-              value = 46,
-              step = 1
-            )
-          ),
+          
           mainPanel(conditionalPanel("input.slider=='1'",
                                      
                                      ((
